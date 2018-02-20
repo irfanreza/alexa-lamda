@@ -27,8 +27,8 @@ var timeValidation = false;
 var options = {
 	port: '1883',
   	clientId: 'mqttjs_' + Math.random().toString(16).substr(2, 8),
-  	username: 'rfan',
-  	password: 'rfandoang',
+  	username: 'user',
+  	password: 'password',
 };
 
 const handlers = {
